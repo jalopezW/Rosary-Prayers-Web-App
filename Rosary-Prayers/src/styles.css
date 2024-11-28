@@ -1,0 +1,83 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    color: gold;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    grid-gap: 5px;
+  }
+  
+  h1 {
+    display: grid;
+    text-align: center;
+    text-shadow: 2px 3px 5px;
+    color: purple;
+    background-color: gold;
+    font-family: "Trebuchet MS";
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(gold, purple, purple, gold);
+    text-align: center;
+  }
+  
+  .MaryRosaryImgs {
+    max-width: 150px;
+    height: auto;
+    border-radius: 100px;
+    margin-top: 200px;
+    display: flex;
+  }
+  
+  .button {
+    text-align: center;
+    padding: 5px 10px;
+    margin: 40px auto;
+    background-color: aliceblue;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: gold;
+    color: purple;
+  }
+  
+  h4 {
+    display: grid;
+    align-items: center;
+    color: purple;
+    padding: 5px;
+    background: gold;
+    font-size: 12px;
+    margin: 10px;
+  }
+  
+  .Images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    margin: 20px 0px;
+  }
+  
+  .Images img {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 300px;
+    margin: 35px 0;
+  }
+  
